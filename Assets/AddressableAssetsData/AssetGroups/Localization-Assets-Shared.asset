@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: 4cd63c2edc933b946b2ea1e55c3f7a35
+  m_SerializeEntries:
+  - m_GUID: 2f1c2cb8070cc3a4485ee3746660d707
+    m_Address: Assets/LocalSettings/Tables/HissatsuTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40b1ab7ab39fc0c4da37dae230f0c291
+    m_Address: Assets/LocalSettings/Tables/PlayerTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5875f7a85ab69cf4fa977552416a2c5d
+    m_Address: Assets/LocalSettings/Tables/HisstsuBannerTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 7dd0d24f18c5b594b92f206555ea6846, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb704046f12f2784da2d8c3ede64f30b, type: 2}
+    - {fileID: 11400000, guid: 3ce4b719b01201049b1574d4aa266f26, type: 2}
