@@ -27,9 +27,14 @@ public class PlayerData : ScriptableObject
     public SchoolYear schoolYear;
     [Tooltip("Saga original del jugador.")]
     public Season originalSeason;
+    [Tooltip("Color de piel del cuerpo del jugador.")]
+    public Color skinColor;
+
+    //================================================================
+    // ESTADÍSTICAS
+    //================================================================
 
     [Space]
-
     [Header("Stats")]
 
 
@@ -41,11 +46,28 @@ public class PlayerData : ScriptableObject
     [Range(1, 200)] public int speed = 50;
     [Range(1, 200)] public int stamina = 50;
     [Range(1, 200)] public int luck = 50;
+    [Space]
+    [Range(10, 500)] public int maxPE = 50;
+    [Range(10, 500)] public int maxPT = 50;
+
+    //================================================================
+    // SUPERTÉCNICAS
+    //================================================================
+
+    [Space]
+    [Header("Hissatsu")]
+
+    [Tooltip("Técnicas principales del jugador.")]
+    public HissatsuData[] hissatsus = new HissatsuData[6];
+
+    [Tooltip("Talento o habilidad inherente del jugador.")]
+    public HissatsuData inherentSkill;
 
     //================================================================
     // VISUAL
     //================================================================
 
+    [Space]
     [Header("Visual")]
 
     [Tooltip("Imagen utilizada en menús y HUD.")]
@@ -110,6 +132,8 @@ public enum BodyType
 {
     StandardMale,
     StandardFemale,
+    StandardCollarUp,
+    StandardSleeveless,
     Small,
     Large,
     Tall,

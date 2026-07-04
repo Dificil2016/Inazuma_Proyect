@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1153588d8393bc40a94118111ff72ae, type: 3}
+  m_Name: Raimon
+  m_EditorClassIdentifier: Assembly-CSharp::UniformData
+  nameKey:
+    m_TableReference:
+      m_TableCollectionName: GUID:6aed85ccce24269448502194950b7933
+    m_TableEntryReference:
+      m_KeyId: 163936845824
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  icon: {fileID: 0}
+  fieldKit:
+    bodyModels:
+      values:
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 1
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 2
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 3
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 4
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 5
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 6
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 7
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 8
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 9
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+    homeTextures:
+      shirt: {fileID: 0}
+      shorts: {fileID: 0}
+    awayTextures:
+      shirt: {fileID: 0}
+      shorts: {fileID: 0}
+  goalkeeperKit:
+    bodyModels:
+      values:
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+      - bodyType: 0
+        uniformModel: {fileID: 0}
+        bodyModel: {fileID: 0}
+        bootsModel: {fileID: 0}
+    homeTextures:
+      shirt: {fileID: 0}
+      shorts: {fileID: 0}
+    awayTextures:
+      shirt: {fileID: 0}
+      shorts: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []
