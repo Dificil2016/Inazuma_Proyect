@@ -137,7 +137,9 @@ public enum BodyType
     Small,
     Large,
     Tall,
+    TallCollarUp,
     Fat,
     Strong,
-    Muscular
+    Muscular,
+    MuscularSleeveless
 }

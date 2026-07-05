@@ -68,8 +68,8 @@ public class BodyUniform
     [Tooltip("Modelo del uniforme.")]
     public GameObject uniformModel;
 
-    [Tooltip("Modelo del cuerpo.")]
-    public GameObject bodyModel;
+    [Tooltip("Modelo de la cinta de capitán.")]
+    public GameObject captainWristModel;
 
     [Tooltip("Modelo de las botas.")]
     public GameObject bootsModel;
@@ -86,7 +86,9 @@ public class UniformTextures
 {
     [Tooltip("Textura de la camiseta.")]
     public Texture2D shirt;
+    public Texture2D shirtMask;
 
     [Tooltip("Textura del pantalón.")]
     public Texture2D shorts;
+    public Texture2D shortsMask;
 }
