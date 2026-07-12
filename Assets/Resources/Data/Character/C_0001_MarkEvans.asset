@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
+  m_Name: C_0001_MarkEvans
+  m_EditorClassIdentifier: Assembly-CSharp::CharaData
+  characterName: Mark Evans
+  characterNickname: Mark
+  backPortrait: {fileID: 0}
+  frontPortrait: {fileID: 0}
+  position: 0
+  element: 3
+  gender: 1
+  bodyType: 0
+  age: 3
+  maxPT: 155
+  maxPE: 153
+  stats:
+    kick: 96
+    dribble: 76
+    block: 107
+    control: 175
+    technique: 133
+    speed: 100
+    stamina: 128
+    critical: 123

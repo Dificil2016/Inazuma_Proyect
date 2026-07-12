@@ -13,17 +13,11 @@ MonoBehaviour:
   m_Name: Localization-Assets-English (en)
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Localization-Assets-English (en)
-  m_GUID: fbda5739a19b7fe48bebccc02b7b06c4
-  m_SerializeEntries:
-  - m_GUID: 3920510fb7eb83c4890a4fa76210bce1
-    m_Address: GodHand_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    FlaggedDuringContentUpdateRestriction: 0
+  m_GUID: bb9e1dadb57342b44ae26c614a9fa329
+  m_SerializeEntries: []
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 7dd0d24f18c5b594b92f206555ea6846, type: 2}
+  m_Settings: {fileID: 11400000, guid: 57999032eb38f804cad9ee875db37933, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: a40e33f355d94984eafe67a5f95b7d97, type: 2}
-    - {fileID: 11400000, guid: b4d8c82faa1815b4189f9adb7c72036c, type: 2}
+    - {fileID: 11400000, guid: 11083380339ba1e44a35bf2ad02edb6e, type: 2}
+    - {fileID: 11400000, guid: 0df4396fad262ef45b257a399ebe86f0, type: 2}

@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Localization-Asset-Tables-English (en)
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Localization-Asset-Tables-English (en)
-  m_GUID: a7a01d5dcb4b72c449081cddce973f96
+  m_GUID: 96c34fbb1238ade4c9b5cbe3621269b9
   m_SerializeEntries:
-  - m_GUID: 5f6c6d0168418db46af94461db07a796
-    m_Address: HisstsuBannerTable_en
+  - m_GUID: 207b6ce1fe5f3e441b17fcd6d6abd806
+    m_Address: IconTable_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 7dd0d24f18c5b594b92f206555ea6846, type: 2}
+  m_Settings: {fileID: 11400000, guid: 57999032eb38f804cad9ee875db37933, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: b8643ba5f0f3d7f40a222a7fddc89221, type: 2}
-    - {fileID: 11400000, guid: 1d0f20a368b6d37408d1a83f19d663dd, type: 2}
+    - {fileID: 11400000, guid: 28391fa521ecce943b75734dee1ef051, type: 2}
+    - {fileID: 11400000, guid: 39ae59f005828b4428fc5c2677efcd71, type: 2}

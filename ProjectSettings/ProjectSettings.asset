@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 602cc04d9a86f434c8f823d4d58599c0
+  productGUID: ea67bc7c4b4b19848ad0a2ca5468e329
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: InazumaProyect
+  productName: Inazuma_Proyect_2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -844,14 +844,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: InazumaProyect
+  metroPackageName: Inazuma_Proyect_2
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: InazumaProyect
+  metroApplicationDescription: Inazuma_Proyect_2
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -922,10 +922,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: d44fe8d9-21cc-4323-b1ed-40f2655e9783
+  cloudProjectId: b20bf11b-bb98-403a-82de-69bcc7916510
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: InazumaProyect 2026-07-03_17-17-29
+  projectName: Inazuma_Proyect_2
   organizationId: dexter259
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

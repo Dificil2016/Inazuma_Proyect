@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: IconTable_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.AssetTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5699d84344cd484408bc6a531392782d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 41341534208
+    m_Localized: '7e8eee9e24b8e354b91ed615070c8a98[BaseIcon]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104688107520
+    m_Localized: '7e8eee9e24b8e354b91ed615070c8a98[BaseIcon]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135373635584
+    m_Localized: '7e8eee9e24b8e354b91ed615070c8a98[BaseIcon]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9227299307520
+    m_Localized: '8afbfdb36dec58d4b9ab20ab87667df5[Element_Wood]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9175243800576
+    m_Localized: '8afbfdb36dec58d4b9ab20ab87667df5[Element_Earth]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9119761547264
+    m_Localized: '8afbfdb36dec58d4b9ab20ab87667df5[Element_Wind]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9069585088512
+    m_Localized: '8afbfdb36dec58d4b9ab20ab87667df5[Element_Fire]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8870129156096
+    m_Localized: '8afbfdb36dec58d4b9ab20ab87667df5[Element_Void]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398844801024
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1637228068864
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1701979734016
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1779016515584
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2275739549696
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2965979381760
+    m_Localized: '7e8eee9e24b8e354b91ed615070c8a98[BaseIcon]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3279738486784
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3523477880832
+    m_Localized: '7e8eee9e24b8e354b91ed615070c8a98[BaseIcon]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3565349617664
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3714314518528
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4113792614400
+    m_Localized: '4cde33c60b711464a996eb084ccc5f7a[Hissatsu_Talent]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730896367616
+    m_Localized: '4cde33c60b711464a996eb084ccc5f7a[Hissatsu_Keep]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4678161383424
+    m_Localized: '4cde33c60b711464a996eb084ccc5f7a[Hissatsu_Block]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614575734784
+    m_Localized: '4cde33c60b711464a996eb084ccc5f7a[Hissatsu_Dribble]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4411277819904
+    m_Localized: '4cde33c60b711464a996eb084ccc5f7a[Hissatsu_Shoot]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5301976023040
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5354597761024
+    m_Localized: 7e8eee9e24b8e354b91ed615070c8a98
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5614162264064
+    m_Localized: '7e8eee9e24b8e354b91ed615070c8a98[BaseIcon]'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
