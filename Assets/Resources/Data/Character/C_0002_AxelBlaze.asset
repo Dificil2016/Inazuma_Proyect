@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
-  m_Name: C_0001_MarkEvans
+  m_Name: C_0002_AxelBlaze
   m_EditorClassIdentifier: Assembly-CSharp::CharaData
-  characterName: Mark Evans
-  characterNickname: Mark
-  backPortrait: {fileID: 21300000, guid: fad541fd438a2144b8e74307e6c89bf7, type: 3}
-  frontPortrait: {fileID: 21300000, guid: 6bb31b0b785079d4f86f27657c5a2cea, type: 3}
-  position: 0
-  element: 3
+  characterName: Axel Blaze
+  characterNickname: Blaze
+  backPortrait: {fileID: 21300000, guid: 921ff8f97fa2e394bb67752edd68eaff, type: 3}
+  frontPortrait: {fileID: 21300000, guid: 48e1ad593ea16424fa4ed9ceb5afc0a3, type: 3}
+  position: 3
+  element: 1
   gender: 1
   bodyType: 0
   age: 3
-  maxPT: 155
-  maxPE: 153
+  maxPT: 149
+  maxPE: 170
   stats:
-    kick: 96
-    dribble: 76
-    block: 107
-    control: 175
-    technique: 133
-    speed: 100
-    stamina: 128
-    critical: 123
+    kick: 170
+    dribble: 126
+    block: 95
+    control: 83
+    technique: 116
+    speed: 104
+    stamina: 121
+    critical: 90

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
+  m_Name: C_0027_DerekSwing
+  m_EditorClassIdentifier: Assembly-CSharp::CharaData
+  characterName: Derek Swing
+  characterNickname: Swing
+  backPortrait: {fileID: 21300000, guid: 32ecdc8a38607064785f90393ac5845b, type: 3}
+  frontPortrait: {fileID: 21300000, guid: a6b9da169b190b64782ff9337f85953c, type: 3}
+  position: 2
+  element: 4
+  gender: 1
+  bodyType: 2
+  age: 2
+  maxPT: 138
+  maxPE: 156
+  stats:
+    kick: 90
+    dribble: 140
+    block: 88
+    control: 92
+    technique: 138
+    speed: 115
+    stamina: 108
+    critical: 102

@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
-  m_Name: C_0001_MarkEvans
+  m_Name: C_0025_HermanWaldon
   m_EditorClassIdentifier: Assembly-CSharp::CharaData
-  characterName: Mark Evans
-  characterNickname: Mark
-  backPortrait: {fileID: 21300000, guid: fad541fd438a2144b8e74307e6c89bf7, type: 3}
-  frontPortrait: {fileID: 21300000, guid: 6bb31b0b785079d4f86f27657c5a2cea, type: 3}
-  position: 0
-  element: 3
+  characterName: Herman Waldon
+  characterNickname: Waldon
+  backPortrait: {fileID: 21300000, guid: 00368df233e75e045bfef1574db2811c, type: 3}
+  frontPortrait: {fileID: 21300000, guid: 7dec7339693dff94cb1dbdaafecea25f, type: 3}
+  position: 2
+  element: 4
   gender: 1
   bodyType: 0
   age: 3
-  maxPT: 155
-  maxPE: 153
+  maxPT: 132
+  maxPE: 158
   stats:
-    kick: 96
-    dribble: 76
-    block: 107
-    control: 175
-    technique: 133
-    speed: 100
-    stamina: 128
-    critical: 123
+    kick: 95
+    dribble: 145
+    block: 92
+    control: 85
+    technique: 122
+    speed: 128
+    stamina: 105
+    critical: 98

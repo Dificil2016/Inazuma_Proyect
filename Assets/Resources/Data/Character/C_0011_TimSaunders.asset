@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
+  m_Name: C_0011_TimSaunders
+  m_EditorClassIdentifier: Assembly-CSharp::CharaData
+  characterName: Tim Saunders
+  characterNickname: Timmy
+  backPortrait: {fileID: 21300000, guid: d9866e9e07fb90142bce0df2a57f37c7, type: 3}
+  frontPortrait: {fileID: 21300000, guid: 05a72682c420ce94e8354bf04b5ab3e9, type: 3}
+  position: 2
+  element: 2
+  gender: 1
+  bodyType: 2
+  age: 2
+  maxPT: 122
+  maxPE: 147
+  stats:
+    kick: 66
+    dribble: 123
+    block: 92
+    control: 59
+    technique: 100
+    speed: 138
+    stamina: 97
+    critical: 68

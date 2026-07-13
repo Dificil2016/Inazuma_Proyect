@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
+  m_Name: C_0012_SamKincaid
+  m_EditorClassIdentifier: Assembly-CSharp::CharaData
+  characterName: Sam Kincaid
+  characterNickname: Sam
+  backPortrait: {fileID: 21300000, guid: db15e8d5242eee8489906795ddc758bf, type: 3}
+  frontPortrait: {fileID: 21300000, guid: 9ffd1c0104c07914d8041d8c55e1ed90, type: 3}
+  position: 2
+  element: 1
+  gender: 1
+  bodyType: 0
+  age: 2
+  maxPT: 124
+  maxPE: 125
+  stats:
+    kick: 85
+    dribble: 117
+    block: 77
+    control: 47
+    technique: 88
+    speed: 111
+    stamina: 71
+    critical: 61

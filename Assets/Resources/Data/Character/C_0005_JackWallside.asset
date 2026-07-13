@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
+  m_Name: C_0005_JackWallside
+  m_EditorClassIdentifier: Assembly-CSharp::CharaData
+  characterName: Jack Wallside
+  characterNickname: Wallside
+  backPortrait: {fileID: 21300000, guid: 0f0b40e2a2d036d449306e5e4835ce68, type: 3}
+  frontPortrait: {fileID: 21300000, guid: 2e6f12e0caa4be747a58f2d0c8b9ff66, type: 3}
+  position: 1
+  element: 3
+  gender: 1
+  bodyType: 4
+  age: 2
+  maxPT: 131
+  maxPE: 164
+  stats:
+    kick: 71
+    dribble: 70
+    block: 167
+    control: 128
+    technique: 114
+    speed: 60
+    stamina: 100
+    critical: 144

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd82843fb7504f8b176a7ae6cd16f, type: 3}
+  m_Name: C_0023_AlanMaster
+  m_EditorClassIdentifier: Assembly-CSharp::CharaData
+  characterName: Alan Master
+  characterNickname: Master
+  backPortrait: {fileID: 21300000, guid: 2b3ca8ebc5438bc4b95d9335c1744ae5, type: 3}
+  frontPortrait: {fileID: 21300000, guid: 94ba09a07a4831e4f9a4e5313194c32a, type: 3}
+  position: 2
+  element: 4
+  gender: 1
+  bodyType: 0
+  age: 2
+  maxPT: 110
+  maxPE: 150
+  stats:
+    kick: 110
+    dribble: 140
+    block: 96
+    control: 102
+    technique: 130
+    speed: 110
+    stamina: 96
+    critical: 105
