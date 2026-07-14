@@ -1,22 +1,29 @@
+using System.Collections;
 using UnityEngine;
 
 public class KickOffState : MatchState
 {
-    public KickOffState(MatchStateMachine stateMachine) : base(stateMachine)
+    public KickOffState(MatchStateMachine machine) : base(machine)
     {
     }
 
     public override void Enter()
     {
-        stateMachine.StartCoroutine(KickOffRoutine());
+        MatchGameManager.Instance.StartCoroutine(KickOffRoutine());
     }
 
-    private System.Collections.IEnumerator KickOffRoutine()
+    IEnumerator KickOffRoutine()
     {
-        Debug.Log("KickOff");
+        // Preparar jugadores
+        yield return MatchGameManager.Instance.SetupKickOff();
 
-        yield return new WaitForSeconds(3);
+        // Animación inicial
+        yield return MatchGameManager.Instance.animManager.PlayKickOffAnimation();
 
+        // Esperar al input del jugador que inicia
+        //yield return MatchGameManager.Instance.player1.WaitForKickOffInput();
+
+        // Comienza el partido
         stateMachine.ChangeState(stateMachine.PlayGameState);
     }
 }

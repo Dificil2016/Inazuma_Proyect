@@ -1,6 +1,4 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Playables;
 
 public class MatchStateMachine : MonoBehaviour
 {
@@ -13,7 +11,7 @@ public class MatchStateMachine : MonoBehaviour
     public GoalState GoalState { get; private set; }
     public EndGameState EndGameState { get; private set; }
 
-    private void Awake()
+    internal void Initialize()
     {
         KickOffState = new KickOffState(this);
         PlayGameState = new PlayGameState(this);
@@ -21,10 +19,7 @@ public class MatchStateMachine : MonoBehaviour
         AnimState = new AnimState(this);
         GoalState = new GoalState(this);
         EndGameState = new EndGameState(this);
-    }
 
-    private void Start()
-    {
         ChangeState(KickOffState);
     }
 
