@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class MatchGameManager : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class MatchGameManager : MonoBehaviour
     [Header("Controllers")]
     public PlayerController player1;
     public PlayerController player2;
+    public BallController ballController;
 
     [Header("Managers")]
     public MatchAnimManager animManager;
@@ -47,5 +49,22 @@ public class MatchGameManager : MonoBehaviour
         yield return player1.SetupCharas(playerField, playerStarts);
 
         yield return player2.SetupCharas(enemyField, !playerStarts);
+    }
+
+    //------------------------------------------------------------------------------------------------------
+
+    public PlayerController ControllerWithBall()
+    {
+        if (ballController.CharaWithBall != null)
+        { return ballController.CharaWithBall.controller; }
+        else
+        { return null; }
+    }
+
+    public bool CharaHasBall(CharaController chara)
+    {
+        if (ballController.CharaWithBall != null)
+        { return (ballController.CharaWithBall == chara); }
+        return false;
     }
 }

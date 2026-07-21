@@ -5,6 +5,7 @@ public class KickOffState : MatchState
 {
     public KickOffState(MatchStateMachine machine) : base(machine)
     {
+
     }
 
     public override void Enter()
@@ -21,7 +22,7 @@ public class KickOffState : MatchState
         yield return MatchGameManager.Instance.animManager.PlayKickOffAnimation();
 
         // Esperar al input del jugador que inicia
-        //yield return MatchGameManager.Instance.player1.WaitForKickOffInput();
+        //yield return MatchGameManager.Instance.CurrentPossessionPlayer.WaitForKickOffInput();
 
         // Comienza el partido
         stateMachine.ChangeState(stateMachine.PlayGameState);
@@ -37,6 +38,15 @@ public class PlayGameState : MatchState
     public override void Enter()
     {
         Debug.Log("Empieza el juego");
+    }
+
+    public override void Update()
+    {
+        MatchGameManager.Instance.player1.UpdateAllCharas();
+
+        MatchGameManager.Instance.player2.UpdateAllCharas();
+
+        MatchGameManager.Instance.ballController.BallPlayUpdate();
     }
 }
 

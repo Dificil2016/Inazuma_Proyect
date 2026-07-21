@@ -10,6 +10,7 @@ public class MatchFieldSide : MonoBehaviour
 
     [Header("Portero")]
     public Transform goalkeeperSpawn;
+    public Transform rivalGoalKeeper;
 
     [Header("Saque inicial")]
     public Transform kickOffPointA;

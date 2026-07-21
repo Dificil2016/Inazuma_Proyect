@@ -8,6 +8,8 @@ public abstract class PlayerController : MonoBehaviour
 
     public List<CharaController> Charas { get; } = new();
 
+    public MatchFieldSide fieldData;
+
     [SerializeField]
     protected CharaController charaPrefab;
 
@@ -18,6 +20,8 @@ public abstract class PlayerController : MonoBehaviour
 
     public IEnumerator SetupCharas( MatchFieldSide field, bool hasKickOff)
     {
+        fieldData = field;
+
         // Destruir personajes anteriores
         foreach (CharaController chara in Charas)
         {
@@ -72,8 +76,40 @@ public abstract class PlayerController : MonoBehaviour
     {
         CharaController controller = Instantiate(charaPrefab, position, Quaternion.identity);
 
-        controller.Setup(instance);
+        controller.Setup(instance, this);
 
         Charas.Add(controller);
+    }
+
+    public virtual void UpdateAllCharas()
+    {
+        foreach (CharaController chara in Charas)
+        {
+            chara.CharaPlayUpdate();
+        }
+    }
+
+    public List<Vector3> AllNearAlliesCharasPos(CharaController excludeChara)
+    {
+        List<Vector3> pos = new List<Vector3>();
+
+        foreach (CharaController chara in Charas)
+        {
+            if (chara != excludeChara)
+            {
+                pos.Add(chara.transform.position);
+            }
+        }
+
+        return pos;
+
+    }
+
+
+    //---------------------------------------------------------------------------------
+
+    public virtual IEnumerator WaitForKickOffInput()
+    {
+        yield break;
     }
 }
